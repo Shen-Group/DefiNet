@@ -61,6 +61,3 @@ To evaluate the DefiNet, specifically on the XMnO dataset, run the following com
 ### Predicting the Relaxed Structures
 To predict relaxed structures and save them as .cif files:
 - `python predict_relaxed_structure.py --data_root your_data_path/high_density_defects --materials MoS2_500 --unit_cell_fname MoS2.cif --model_path your_model_path/model.pt`
-
-## Citation
-If you find the DefiNet beneficial for your research, please include a citation to our paper. You can reference it as follows:<br>
